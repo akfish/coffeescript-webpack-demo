@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "coffeescript-webpack-demo",
+  "version": "1.0.0",
+  "description": "Demo for coffeescript PR#4501",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack",
+    "dev": "node_modules/.bin/webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "coffee-script": "git+https://github.com/akfish/coffeescript.git#fix/webpack-built"
+  }
+}
